@@ -10,7 +10,7 @@ cache = redis.Redis(host='redis', port=6379)
 
 class Product(Resource):
     def get(self):
-        return { 'test': 'test2' }
+        return { 'test': 'test1' }
 
 
 api.add_resource(Product, '/')
